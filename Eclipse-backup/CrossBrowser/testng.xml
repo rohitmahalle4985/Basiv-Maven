@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  
+   <test name="firefoxTestCase">
+  
+  <parameter name="browser" value="firefox"/>
+  <classes>
+  <class name="com.jbk.grid.TestNGGrid.java">
+  </class>
+  </classes>
+   </test>
+  
+  <test name="chromeTestCase">
+  
+  <parameter name="browser" value="chrome"/>
+  <classes>
+  <class name="co.jbk.grid.TestNGGrid.java">
+  </class>
+  </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->

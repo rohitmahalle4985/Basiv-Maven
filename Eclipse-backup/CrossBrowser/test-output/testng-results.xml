@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52284" started-at="2018-12-04T12:42:31Z" finished-at="2018-12-04T12:43:23Z">
+    <groups>
+    </groups>
+    <test name="chromeTestCase" duration-ms="27067" started-at="2018-12-04T12:42:31Z" finished-at="2018-12-04T12:42:58Z">
+      <class name="crossBrowser.CrossBroserTesting">
+        <test-method status="PASS" signature="crossTesting(java.lang.String)[pri:0, instance:crossBrowser.CrossBroserTesting@4b553d26]" name="crossTesting" duration-ms="27030" started-at="2018-12-04T12:42:31Z" finished-at="2018-12-04T12:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossTesting -->
+      </class> <!-- crossBrowser.CrossBroserTesting -->
+    </test> <!-- chromeTestCase -->
+    <test name="firefoxTestCase" duration-ms="52284" started-at="2018-12-04T12:42:31Z" finished-at="2018-12-04T12:43:23Z">
+      <class name="crossBrowser.CrossBroserTesting">
+        <test-method status="PASS" signature="crossTesting(java.lang.String)[pri:0, instance:crossBrowser.CrossBroserTesting@4b1c1ea0]" name="crossTesting" duration-ms="52249" started-at="2018-12-04T12:42:31Z" finished-at="2018-12-04T12:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossTesting -->
+      </class> <!-- crossBrowser.CrossBroserTesting -->
+    </test> <!-- firefoxTestCase -->
+  </suite> <!-- Suite -->
+</testng-results>
